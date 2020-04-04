@@ -6,5 +6,6 @@ body.style.backgroundColor = 'black';
 button.addEventListener('click', handleFun);
 
 function handleFun(){
-    
-}
+    const colorIndex= parseInt(Math.random()*colours.length)
+    body.style.backgroundColor = colours[colorIndex]   
+};
